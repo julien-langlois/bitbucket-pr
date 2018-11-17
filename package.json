@@ -1,0 +1,37 @@
+{
+  "name": "bitbucket-pullr",
+  "version": "1.0.1",
+  "description": "CLI for creating Bitbucket pull request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julien-langlois/bitbucket-pr.git"
+  },
+  "keywords": [
+    "bitbucket",
+    "pull-request",
+    "cli",
+    "repository",
+    "repo",
+    "git"
+  ],
+  "author": "Julien Langlois",
+  "email": "julien@julienlanglois.fr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julien-langlois/bitbucket-pr/issues"
+  },
+  "homepage": "https://github.com/julien-langlois/bitbucket-pr#readme",
+  "bin": {
+    "bit-pr": "./index.js"
+  },
+  "dependencies": {
+    "git-branch": "^2.0.1",
+    "git-remote-origin-url": "^2.0.0",
+    "git-url-parse": "^11.1.0",
+    "opn": "^5.4.0"
+  }
+}
