@@ -31,7 +31,7 @@
   "dependencies": {
     "git-branch": "^2.0.1",
     "git-remote-origin-url": "^3.0.0",
-    "git-url-parse": "^11.1.0",
+    "git-url-parse": "^13.1.0",
     "opn": "^6.0.0"
   }
 }
